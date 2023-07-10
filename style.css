@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section Style  */
+.header-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 20px 100px 0px;
+    gap: 50px;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Header Left Side  */
+.header-section-text {
+    width: 50%;
+}
+
+.header-section-title {
+    margin: 0;
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.header-shop-now-btn {
+    outline: none;
+    border: 1px solid #E55473;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 30px;
+
+}
+
+
+/* Header Right Side */
+.header-photo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.header-photo .header-img{
+   width: auto;
+    height: 100%;
+}
+
