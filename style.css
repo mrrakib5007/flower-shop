@@ -215,3 +215,44 @@ body {
     background: rgba(229, 84, 115, 0.05);
     border: 1px solid #E55473;
 }
+
+/* Instagram Section */
+
+.instagram-container {
+    margin: 100px;
+}
+
+.instagram-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.instagram-header .instagram-header-titile {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.instagram-header-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.instagram-images {
+    display: flex;
+    gap: 20px;
+}
+.instagram-images img{
+    width: 24%;
+    border-radius: 5px;
+}
+
+
+
+
+
