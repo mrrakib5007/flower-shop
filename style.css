@@ -72,22 +72,21 @@ body {
   margin-bottom: 40px;
 }
 .freature-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 0;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 0;
 }
 .feature-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0;
 }
-
 
 .feature-box-container {
   display: flex;
@@ -134,191 +133,223 @@ body {
   cursor: pointer;
 }
 
-
 /* Service Section */
 .service-section-container {
-    margin: 100px;
-    padding: 80px 100px;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    display: flex;
-    justify-content: space-between;
+  margin: 100px;
+  padding: 80px 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
 }
 
 .service-box {
-    text-align: center;
+  text-align: center;
 }
 
-.service-box img{
-    width: 90px;
-    height: 90px;
+.service-box img {
+  width: 90px;
+  height: 90px;
 }
 
 .service-text {
-    color: rgba(39, 39, 39, 0.80);
-    text-align: center;
-    font-size: 17px;
-    font-weight: 600;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 /* Hot Deal Section  */
 .hot-deal-container {
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 50px 180px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 180px;
 }
 
 .hot-deal-content {
-    text-align: center;
+  text-align: center;
 }
-
 
 .hot-deal-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: normal;
-    margin: 5px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  margin: 5px;
 }
-.hot-deal-title span{
-    color: #E55473;
+.hot-deal-title span {
+  color: #e55473;
 }
 
 .hot-deal-details {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0;
 }
 
-.signup-btn{
-    outline: none;
-    border: 1px solid #E55473;
-    border-radius: 8px;
-    color: #fff;
-    background: #E55473;
-    padding: 15px 40px;
-    margin-top: 10px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: all 0.3s;
+.signup-btn {
+  outline: none;
+  border: 1px solid #e55473;
+  border-radius: 8px;
+  color: #fff;
+  background: #e55473;
+  padding: 15px 40px;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .signup-btn:hover {
-    color: #E55473;
-    background: rgba(229, 84, 115, 0.05);
-    border: 1px solid #E55473;
+  color: #e55473;
+  background: rgba(229, 84, 115, 0.05);
+  border: 1px solid #e55473;
 }
 
 /* Instagram Section */
 
 .instagram-container {
-    margin: 100px;
+  margin: 100px;
 }
 
 .instagram-header {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 .instagram-header .instagram-header-titile {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: normal;
-    margin: 0;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
 }
 
 .instagram-header-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
 }
 
 .instagram-images {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
-.instagram-images img{
-    width: 24%;
-    border-radius: 5px;
+.instagram-images img {
+  width: 24%;
+  border-radius: 5px;
 }
-
 
 /* Get The Latest Deals  */
 
 .latest-deals-container {
-    margin: 100px;
-    padding: 50px 30px 100px;
-    background: url(images/Rectangle\ 9.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
+  margin: 100px;
+  padding: 50px 30px 100px;
+  background: url(images/Rectangle\ 9.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .latest-deals-title {
-    margin: 0;
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
+  margin: 0;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 .latest-deals-description {
-    margin: 0;
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+  margin: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .input-box {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-.input-box input{
-    outline: 0;
-    border: 1px solid #fff;
-    box-shadow: 1px 1px 10px #2727272a;
-    border-radius: 8px;
-    background: #FFF;
-    width: 45%;
-    font-size: 20px;
-    padding: 15px;
-    margin-right: 10px;
-    transition: all 0.3s;
+.input-box input {
+  outline: 0;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 10px #2727272a;
+  border-radius: 8px;
+  background: #fff;
+  width: 45%;
+  font-size: 20px;
+  padding: 15px;
+  margin-right: 10px;
+  transition: all 0.3s;
 }
 
 .input-box input::placeholder {
-    color: rgba(39, 39, 39, 0.5);
-    font-size: 18px;
+  color: rgba(39, 39, 39, 0.5);
+  font-size: 18px;
 }
 .input-box input:focus {
-    border: 1px solid #e55473;
+  border: 1px solid #e55473;
 }
 
-.input-box button{
-    outline: 0;
-    border: 1px solid #E55473;
-    border-radius: 8px;
-    background: #E55473;
-    color: #FFF;
-    font-size: 20px;
-    padding: 14px;
-    cursor: pointer;
-    transition: all 0.3s;
+.input-box button {
+  outline: 0;
+  border: 1px solid #e55473;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .input-box button:hover {
-    background: #fff;
+  background: #fff;
+  color: #e55473;
+}
+
+
+/* Footer Section  */
+
+.footer-container {
+    background: #111010;
+    text-align: center;
+    padding: 100px 0;
+    color:#fff;
+}
+
+.footer-titile {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.footer-titile span{
     color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
 }
