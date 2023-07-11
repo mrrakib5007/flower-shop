@@ -45,6 +45,13 @@ body {
   color: #fff;
   font-weight: 500;
   padding: 15px 38px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header-shop-now-btn:hover {
+    background: #fff;
+    color: #e55473;
 }
 
 /* Header Right Side */
@@ -158,6 +165,75 @@ body {
   font-size: 17px;
   font-weight: 600;
 }
+
+/* summer-flower  */
+.summer-flower {
+    margin: 100px;
+}
+
+.summer-flower-header {
+    font-size: 40px;
+    color: #272727;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.summer-flower-container {
+    display: flex;
+    gap: 20px;
+
+}
+.summer-flower-box {
+    width: 25%;
+    border-radius: 5px;
+    background: #e554730e;
+    border: 1px solid #fff;
+    padding: 10px;
+    transition: all 0.3s;
+}
+.summer-flower-box:hover {
+    border: 1px solid #E55473;
+}
+
+.summer-box-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.summer-flower-box-title {
+    margin: 10px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #E55473;
+}
+
+.summer-box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.summer-flower-rate {
+    margin: 0;
+    color: #272727b2;
+    font-size: 15px;
+
+}
+.shop-btn {
+    outline: none;
+    border: 1px solid #E55473;
+    background: #E55473;
+    color: #fff;
+    padding: 8px 12px;
+    transition: all 0.3s;
+}
+.shop-btn:hover {
+    background: #fff;
+    color: #E55473;
+}
+
+
 
 /* Hot Deal Section  */
 .hot-deal-container {
